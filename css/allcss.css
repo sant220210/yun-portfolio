@@ -674,16 +674,9 @@ body a{
 }
 @media(max-width:569px){
   .navigation-btn{
-    gap: 8px;
-  }
-
-}
-
-@media(max-width:414px){
-  .navigation-btn{
     flex-direction: column;
-    
   }
+
 }
 
 /*作品介紹頁背景色*/
