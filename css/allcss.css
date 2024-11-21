@@ -654,7 +654,7 @@ body a{
 
 .protfolio-design img{
   object-fit: cover;
-  margin-bottom: 72px;
+  margin-bottom: 64px;
 
 }
 .design-title{
@@ -668,6 +668,10 @@ body a{
 @media(max-width:569px) {
   .design-title{
     font-size: 14px;
+    
+  }
+  .protfolio-design{
+    margin-top: 0;
   }
   
 }
