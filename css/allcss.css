@@ -635,8 +635,48 @@ body a{
   .browse p{
     font-size: 12px;
     
+  }
 }
+
+
+/**平面設計**/
+.protfolio-design{
+  
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.protfolio-design li{
+  width: 80%;
+}
+
+.protfolio-design img{
+  object-fit: cover;
+  margin-bottom: 72px;
+
+}
+.design-title{
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  
+
+}
+
+@media(max-width:569px) {
+  .design-title{
+    font-size: 14px;
+  }
+  
+}
+
+
+
+
+
+
 
 /*介紹頁導航按鈕*/
 .navigation-btn{
@@ -679,10 +719,13 @@ body a{
 
 }
 
+
+
 /*作品介紹頁背景色*/
 .container-bg{
   background:#ffff;
 }
+
 
 
 /**啾愛日介紹頁面**/
@@ -764,37 +807,8 @@ body a{
   opacity: 0.5;
 }
 
-.protfolio-design{
-  
-  margin-top: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.protfolio-design li{
-  width: 80%;
-}
 
-.protfolio-design img{
-  object-fit: cover;
-  margin-bottom: 72px;
-
-}
-.design-title{
-  display: block;
-  text-align: center;
-  font-weight: 600;
-  
-
-}
-
-@media(max-width:569px) {
-  .design-title{
-    font-size: 14px;
-  }
-  
-}
 
 
 
