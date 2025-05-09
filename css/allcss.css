@@ -787,6 +787,16 @@ body a{
   
 }
 
+.dcalink{
+  width: 155px;
+  margin-top: 12px;
+  border-bottom: 1px solid #D0A6A6;
+  display: block;
+}
+
+.dcalink:hover{
+  opacity: 0.5;
+}
 
 
 
