@@ -4,6 +4,10 @@
 
   a{
     text-decoration: none;
+
+    -webkit-tap-highlight-color: transparent; 
+    /* 移除點擊高亮效果 */
+    
   }
   p{
     line-height: 140%;
@@ -449,6 +453,15 @@ body a{
   width: 40%;
   margin-right: 64px;
 }
+
+.textbox{
+  margin-top: 12px;
+
+}
+.textbox p{
+  margin-bottom:4px;
+}
+
 
 .bonny-text{
   padding-top: 16px;
