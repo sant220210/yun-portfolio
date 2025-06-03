@@ -496,7 +496,7 @@ body a{
   position: relative;
   overflow: hidden;
   width: 50%;
-  
+  height: 100%;/*符合高度*/
   
 }
 
